@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="./images/videoteca.ico"
+      type="image/x-ico"
+    />
+    <title>Videoteca</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="cabecalho oculto">
+      <div class="aula-menu">
+        <button onclick="alterarTema()">
+          <img src="./images/voltar.png" />
+        </button>
+
+        <h1>Ciências</h1>
+
+        <div class="pesquisa">
+          <img src="./images/pesq.png" />
+          <div id="caixaTexto">
+            <input
+              id="procurar"
+              type="text"
+              placeholder="Digite algo sobre o vídeo."
+              onkeyup="pesquisar()"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="escolha-tema">
+        <h1>Escolha o tema</h1>
+
+        <div>
+          <select id="materia" name="materia">
+            <option value="ciencias">Ciências</option>
+            <option value="geografia">Geografia</option>
+            <option value="historia">História</option>
+            <option value="ingles">Inglês</option>
+            <option value="matematica">Matemática</option>
+            <option value="portugues">Português</option>
+          </select>
+          <button onclick="exibirConteudo()">Avançar</button>
+        </div>
+      </section>
+
+      <section id="conteudo-materia"></section>
+    </main>
+
+    <aside class="modal oculto" onclick="fecharVideo()">
+      <div class="modal-video">
+        <div id="video"></div>
+        <button class="fechar-video" onclick="fecharVideo()">X</button>
+      </div>
+    </aside>
+
+    <script src="./data/aulasCiencias.js"></script>
+    <script src="js/ciencias.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- <script src="js/geografia.js"></script>
+    <script src="js/historia.js"></script>
+    <script src="js/ingles.js"></script>
+    <script src="js/matematica.js"></script>
+    <script src="js/portugues.js"></script>
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/jquery/function.js"></script>-->
+  </body>
+</html>
