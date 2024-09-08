@@ -10,14 +10,14 @@ const videosCiencias = [
     titulo: '02 - Céu',
     descricao:
       '- Você verá que, por muito tempo, se acreditou que a Terra estava parada, mas hoje se sabe que ela realiza um movimento de rotação em torno de seu eixo, de oeste para leste.',
-    link: 'https://www.youtube.com/watch?v=qbG5UcoY2Jw',
+    link: 'https://www.youtube.com/embed/qbG5UcoY2Jw?si=yIW-CTURYyV-jW5g',
     imagem: 'https://i.ytimg.com/vi/qbG5UcoY2Jw/hqdefault.jpg',
   },
   {
     titulo: '03 - A Terra inquieta',
     descricao:
       '- Você descobrirá que os vulcões e os terremotos ocorrem em conseqüência dos movimentos e acomodações do material que existe no interior da Terra.',
-    link: 'https://www.youtube.com/watch?v=KInIkZqwRrM',
+    link: 'https://www.youtube.com/embed/KInIkZqwRrM?si=ZUk5ImSwv_T5zOxi',
     imagem: 'https://i.ytimg.com/vi/KInIkZqwRrM/hqdefault.jpg',
   },
   {
