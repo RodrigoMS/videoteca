@@ -1,5 +1,9 @@
 /* Apresenta todos os vídeos referentes ao tema. */
 function escolherTema() {
+  /* Altera o título conforme o tema. */
+  let titulo = document.getElementById(tema).innerHTML;
+  document.getElementById('titulo').innerHTML = titulo;
+
   // Obtém o elemento onde os vídeos serão exibidos.
   const elemento = document.getElementById('conteudo-materia');
 
@@ -63,7 +67,7 @@ function pesquisar() {
         <div class='sobre'>
           <figure>
             <img src="${video.imagem}" alt="${video.titulo}">
-            <figcaption>
+            <figcaption onclick="reproduzirVideo('${video.link}')">
               <img src="./images/play.png" alt="Clique para iniciar o vídeo!">
             </figcaption>
           </figure>
