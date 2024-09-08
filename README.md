@@ -1,4 +1,4 @@
-## Criando um README.md detalhado para o projeto Videoteca
+## Videoteca
 
 **## Videoteca: Sua biblioteca de vídeos personalizada**
 
