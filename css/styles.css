@@ -31,6 +31,13 @@
   display: none;
 }
 
+.centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 /* Tela da materia escolhida. */
 
 .aula-menu {
@@ -50,7 +57,7 @@
   width: 60px;
   height: 60px;
   border: none;
-  background: #0c66cc;
+  background: #218835;
   border-radius: 60px;
   cursor: pointer; 
 }

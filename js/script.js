@@ -1,4 +1,5 @@
 var tema = '';
+var videos = '';
 
 const conteudo = {
   ciencias: videosCiencias,
@@ -45,6 +46,8 @@ function alterarTema() {
    envia para a função de conteúdo de cada matéria. */
 function exibirConteudo() {
   tema = document.getElementById('materia').value;
+
+  videos = conteudo[tema];
 
   alterarTema();
 
