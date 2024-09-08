@@ -1,5 +1,3 @@
-l;
-
 /* Apresenta todos os vídeos referentes ao tema. */
 function escolherTema() {
   // Obtém o elemento onde os vídeos serão exibidos.
