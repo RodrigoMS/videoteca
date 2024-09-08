@@ -1,7 +1,7 @@
 /* Apresenta todos os vídeos referentes ao tema. */
 function escolherTema() {
   /* Altera o título conforme o tema. */
-  let titulo = document.getElementById(tema).innerHTML;
+  const titulo = document.getElementById(tema).innerHTML;
   document.getElementById('titulo').innerHTML = titulo;
 
   // Obtém o elemento onde os vídeos serão exibidos.

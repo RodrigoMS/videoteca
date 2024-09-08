@@ -3,12 +3,14 @@ var videos = '';
 
 /* Carrega a base dados escolhida. */
 const conteudo = {
-  ciencias: videosCiencias,
-  geografia: videosGeografia,
-  /*historia: videosHistoria,
-  ingles: videosIngles,
-  matematica: videosMatematica,
-  portugues: videosPortugues,*/
+  ciencias: {
+    titulo: 'Ciências',
+    arquivo: videosCiencias,
+  },
+  geografia: {
+    titulo: 'Geografia',
+    arquivo: videosGeografia,
+  },
 };
 
 /* Adiciona ou remove a classe "oculto" a partir do 
@@ -31,9 +33,21 @@ function alterarTema() {
 function exibirConteudo() {
   tema = document.getElementById('materia').value;
 
-  videos = conteudo[tema];
+  videos = conteudo[tema].arquivo;
 
   alterarTema();
 
   escolherTema();
 }
+
+// Adiciona a opção materia conforme o conteúdo adicionado.
+function carregarOpcoes() {
+  const conhecimento = document.getElementById('materia');
+  const chaves = Object.keys(conteudo);
+
+  chaves.forEach((chave) => {
+    conhecimento.innerHTML += `<option id="${chave}" value="${chave}">${conteudo[chave].titulo}</option>`;
+  });
+}
+
+carregarOpcoes();
