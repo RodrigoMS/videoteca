@@ -2,6 +2,9 @@
 
 **Videoteca: Sua biblioteca de vídeos personalizada**
 
+Click aqui para conferir o resultado: "[Projeto Videoteca](https://rodrigoms.github.io/videoteca/)"
+
+
 ### Descrição Geral
 
 A Videoteca é uma aplicação web que permite aos usuários criar e organizar suas próprias bibliotecas de vídeos. Ela oferece funcionalidades como:
