@@ -1,6 +1,6 @@
 ## Videoteca
 
-**### Videoteca: Sua biblioteca de vídeos personalizada**
+** ## Videoteca: Sua biblioteca de vídeos personalizada**
 
 ### Descrição Geral
 
